@@ -16,3 +16,5 @@ class PhysicalProduct extends Product {
     return `Product is ${this.weight}KG`
   }
 }
+
+export default PhysicalProduct;

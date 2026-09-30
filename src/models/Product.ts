@@ -9,11 +9,11 @@ class Product {
     this.price = price;
   }
 
-  displayDetails() {
+  displayDetails():string {
     return `The sku is ${this.sku}, name is ${this.name}, and price is ${this.price}`;
   }
-  getPriceWithTax() {
-    //calculate tax logic
+  getPriceWithTax(): number {
+    return this.price * 1.08;
   }
 }
 
