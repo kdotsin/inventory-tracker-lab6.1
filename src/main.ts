@@ -11,3 +11,5 @@ for (let i = 0; i < products.length; i++) {
   console.log(products[i]?.displayDetails());
   console.log(products[i]?.getPriceWithTax());
 }
+
+dumbbell.applyDiscount();
